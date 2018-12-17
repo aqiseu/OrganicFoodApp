@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_veg"
+            android:icon="@drawable/ic_lettuce"
+            android:title="Vegetable" />
+        <item
+            android:id="@+id/nav_fru"
+            android:icon="@drawable/ic_apple"
+            android:title="Fruit" />
+        <item
+            android:id="@+id/nav_ex"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit" />
+    </group>
+
+</menu>
